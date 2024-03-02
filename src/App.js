@@ -8,26 +8,32 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="New York" />
 
-        <footer>
+        <div className="footer">
           This project was coded by{" "}
           <a
             href="https://github.com/aweidman110"
             target="_blank"
             rel="noreferrer"
           >
-            {" "}
             Aika Weidman
           </a>{" "}
-          and is{" "}
+          and is open-sourced on{" "}
           <a
             href="https://github.com/aweidman110/react-wk5-weather-app"
             target="_blank"
             rel="noreferrer"
           >
-            open-sourced on GitHub
+            GitHub
           </a>{" "}
-          💻
-        </footer>
+          and hosted on{" "}
+          <a
+            href="https://react-wk5-weather-app.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
+          </a>
+        </div>
       </div>
     </div>
   );
